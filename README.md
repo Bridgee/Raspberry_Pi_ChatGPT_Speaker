@@ -9,7 +9,7 @@ Following the structure from [nickbild](https://github.com/acheong08/ChatGPT-lit
 
 Then, using the [Google's Speech-to-Text API](https://cloud.google.com/speech-to-text/docs), the wav file is transcribed to text with selected language. Note that if you want mixed-language (e.g. En+Zh) transcription, [Whisper]((https://openai.com/blog/whisper/)) is a better option. 
 
-Next step is to sent the text to ChatGPT. As there is no official API for it, a [reverse Engineered ChatGPT API](https://github.com/acheong08/ChatGPT)) is implemented, which requires personal authentication. 
+Next step is to sent the text to ChatGPT. As there is no official API for it, a [reverse Engineered ChatGPT API](https://github.com/acheong08/ChatGPT) is implemented, which requires personal authentication. 
 
 Finally, the response from ChatGPT is convert to audio using [Google's Text-to-Speech API]((https://cloud.google.com/text-to-speech/docs/basics))
 
